@@ -1,0 +1,23 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.filament-stats-overview-card {
+    @apply shadow-lg rounded-lg p-4;
+}
+
+.filament-stats-overview-card.bg-info {
+    @apply bg-blue-500 text-white;
+}
+
+.filament-stats-overview-card.bg-success {
+    @apply bg-green-500 text-white;
+}
+
+.filament-stats-overview-card.bg-warning {
+    @apply bg-yellow-500 text-white;
+}
+
+.filament-stats-overview-card.bg-danger {
+    @apply bg-red-500 text-white;
+}

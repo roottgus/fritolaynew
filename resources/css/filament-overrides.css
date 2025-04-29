@@ -1,0 +1,19 @@
+/* resources/css/filament-overrides.css */
+
+/* Branding global */
+:root {
+    --fi-primary: #2196F3;       /* tu azul corporativo */
+    --fi-primary-focus: #1976D2;
+    --fi-secondary: #FFC107;     /* tu amarillo de acento */
+  }
+  
+  /* Encabezado de Filament */
+  .filament-topbar {
+    background-color: #2196F3;
+  }
+  
+  /* Tipografía */
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
