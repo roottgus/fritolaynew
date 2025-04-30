@@ -19,10 +19,5 @@
         <img src="{{ asset('img/banner.jpg') }}" alt="Banner publicitario" class="w-full rounded-lg shadow">
     </div>
 
-    <!-- Sección de chat público -->
-    <div class="mt-8">
-        <h2 class="text-xl font-semibold mb-4">Chat en Vivo</h2>
-        @livewire('chat-component')
-    </div>
 </div>
 @endsection
